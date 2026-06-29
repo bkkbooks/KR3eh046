@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR3eh046/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eh046/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 腳氣治法總要
+  identifiers:
+    krp: KR3eh046
+  tags:
+    kr-categories: KR3eh
+    tls-dates: dat04370
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eh046.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eh046_000-jc.yaml, hash: 'sha256:2302e6ae64327adb82476c79e83a345709112b2061ee17cef6f74d662072b0eb'}
+  - {seq: 1, filename: KR3eh046_001-jc.yaml, hash: 'sha256:8f053f558f8244d33c4ae2c6db533e3b74cdb1d7a0a5cddf0e5896dd1053e877'}
+  - {seq: 3, filename: KR3eh046_003-jc.yaml, hash: 'sha256:c4bf9de2a07a8e547cf8c2b4aa87cc415625271a4f0d8d63986cedad218cf0fb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eh046_000-jc.markers.yaml, hash: 'sha256:7454b9f335974b867513bb473c45fbb5e25f4231bf19d5a80200ac95c3caf792'}
+  - {seq: 1, role: markers, filename: assets/KR3eh046_001-jc.markers.yaml, hash: 'sha256:86c4467f9259238aa41f3439ba1c27490525d8c1c88fc148f3f41ca092588c1f'}
+  - {seq: 3, role: markers, filename: assets/KR3eh046_003-jc.markers.yaml, hash: 'sha256:06a6e013719d803d91c3cb368bbe6fb17b3e6ca39e6cea583a68a339048a16e8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eh046_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 381
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eh046_jc_001-d3.h1s1
+    span:
+    - body
+    - 0
+    - 4171
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3eh046_jc_003-d4.h1s1
+    span:
+    - body
+    - 0
+    - 5496
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:93a887a88072ab58eb88e44158b77131ec0bef97066d1444b5be748bad5bf677
